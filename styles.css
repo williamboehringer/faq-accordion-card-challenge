@@ -16,8 +16,8 @@ body {
     z-index: 1;
     position: relative;
     display: flex;
-    width: clamp(35rem, 50vw, 60rem);
-    height: 60%;
+    width: clamp(40rem, 50vw, 60rem);
+    height: clamp(27rem, 50vw, 33rem);
     background: white;
     border-radius: 25px ;
     align-items: unset;
@@ -77,10 +77,10 @@ section {
 
 .box {
     position: absolute;
-    max-width:  clamp(8rem, 10vw, 12rem);
+    max-width:  clamp(9rem, 10vw, 12rem);
     left: 0;
     top: 50%;
-    transform: translateY(-25%) translateX(-50%);
+    transform: translateY(-25%) translateX(-52%);
     z-index: 5;
 }
 
@@ -161,15 +161,16 @@ div {
 
 
 /* MEDIA QUERIES */
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     body {
         display: grid;
         place-items: center;
+        padding: 10rem 1rem 2rem 1rem;
     }
 
     .container {
         width: 85%;
-        height: 70%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -180,7 +181,6 @@ div {
         height: 100%;
         width: 100%;
         align-items: center;
-        overflow: unset;
         position: absolute;
         z-index: -1;
         top: 0;
