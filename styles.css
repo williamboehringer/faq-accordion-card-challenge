@@ -4,7 +4,6 @@ body {
     place-items: center;
     background: linear-gradient(#AF68EA, #6462E7);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 *{
@@ -164,6 +163,7 @@ div {
 /* MEDIA QUERIES */
 @media (max-width: 750px) {
     body {
+        height: unset;
         display: grid;
         place-items: center;
         padding: 10rem 1rem 2rem 1rem;
