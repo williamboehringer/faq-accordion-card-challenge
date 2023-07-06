@@ -163,19 +163,19 @@ div {
 /* MEDIA QUERIES */
 @media (max-width: 750px) {
     body {
-        height: max(52rem, 100svh);
         display: grid;
-        align-items: end;
         padding: 10rem 1rem 3rem 1rem;
     }
 
     .container {
+        position: absolute;
+        top: 12rem;
         width: 85%;
-        height: 40rem;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 8rem;
+        padding-top: 5rem;
     }
 
     .images {
@@ -194,7 +194,7 @@ div {
     .woman-mobile {
         display: block;
         position: absolute;
-        top: -21%;
+        top: -7.5rem;
         left: 50%;
         right: 0;
         transform: translateX(-50%);
@@ -215,7 +215,6 @@ div {
     .info {
         width: 100%;
         align-items: center;
-        padding: 20px;
     }
 
     .info-container {
@@ -240,8 +239,13 @@ div {
         padding: 5rem 1rem 3rem 1rem;;
     }
 
+    .container {
+        padding-top: 2rem;
+        top: 8rem;
+    }
+
     .woman-mobile {
-        top: -15%;
+        top: -5.5rem;
         width: 12rem
     }
 
