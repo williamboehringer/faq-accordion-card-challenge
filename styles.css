@@ -4,6 +4,7 @@ body {
     place-items: center;
     background: linear-gradient(#AF68EA, #6462E7);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 *{
