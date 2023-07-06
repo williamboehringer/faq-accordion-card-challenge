@@ -163,15 +163,15 @@ div {
 /* MEDIA QUERIES */
 @media (max-width: 750px) {
     body {
-        height: unset;
+        height: max(52rem, 100svh);
         display: grid;
-        place-items: center;
-        padding: 10rem 1rem 2rem 1rem;
+        align-items: end;
+        padding: 10rem 1rem 3rem 1rem;
     }
 
     .container {
         width: 85%;
-        height: 90%;
+        height: 40rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -236,6 +236,10 @@ div {
 }
 
 @media(max-width:400px) {
+    body {
+        padding: 5rem 1rem 3rem 1rem;;
+    }
+
     .woman-mobile {
         top: -15%;
         width: 12rem
