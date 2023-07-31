@@ -13,7 +13,7 @@ Users should be able to:
 - Hide/Show the answer to a question when the question is clicked
 - **Bonus**: Complete the challenge without using JavaScript
 
-## Challenge Design Overview
+### Challenge Design Overview
 
 ![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
 
