@@ -144,6 +144,10 @@ div {
     background: #f1f1f1;
 }
 
+.info-container {
+    scrollbar-color: #f1f1f1 #f1f1f1;
+}
+
 ::-webkit-scrollbar-thumb:hover {
     background: #757070;
 }
@@ -232,6 +236,11 @@ div {
     ::-webkit-scrollbar-thumb {
         background: transparent;
     }
+
+    .info-container {
+        scrollbar-color: transparent transparent;
+    }
+
 }
 
 @media(max-width:400px) {
